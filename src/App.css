@@ -1,0 +1,39 @@
+.App {
+  margin: 2rem;
+}
+
+.solution-container {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+}
+
+.solution-ex1{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting-form-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: fit-content;
+}
+
+.greeting-form-container *{
+  margin-top: 5px;
+}
+
+.list-from-json{
+  margin-bottom: 10px;
+  background-color: rgb(10, 72, 72);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
